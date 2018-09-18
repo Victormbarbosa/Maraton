@@ -39,7 +39,7 @@ public class CopaMundo {
                         if (vector[j] == b || vector[j + 1] == b) {
                             vector[contador] = b;
                         } else {
-                            vector[contador] = j;
+                            vector[contador] = vector[j];
                         }
                     }
                 }
